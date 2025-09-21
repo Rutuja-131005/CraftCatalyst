@@ -46,9 +46,15 @@ This version is fully frontend-based (HTML, CSS, JS). Backend + AI APIs will be 
 ✅ Showcase-Ready Layout – clean design that highlights the artisan’s craft
 
 🧰 Tech Stack
+
 Layer	Technology
-Frontend	HTML, CSS, JavaScript
-Hosting	GitHub Pages / Netlify
+Frontend :- HTML, CSS, 
+
+Backend :- JavaScript ( API Integretion)
+
+Hosting	:- GitHub Pages / Tinny.host
+
+
 👨‍💻 Authors & Contributors
 
 Team: CraftCatalyst – Smart India Hackathon 2025
