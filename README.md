@@ -55,7 +55,7 @@ Backend + AI-powered API integrations will be added in future iterations to auto
 
 🧠 Rutuja Jadhav – JavaScript Integration  
 🎨 Shweta Kharat – Frontend Design, UI/UX  
-👨‍💻 Gatri Nikam – HTML/CSS Development  
+👨‍💻 Gayatri Nikam – HTML/CSS Development  
 🖌 Prachi Gaikwad – Graphics & Branding  
 🔧 Rushikesh Khatke – Deployment & Testing  
 
