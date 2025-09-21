@@ -29,6 +29,7 @@ Backend + AI-powered API integrations will be added in future iterations to auto
 ## 📸 DEMO & REPOSITORY  
 🔗 Live Prototype: [CraftCatalyst](https://pink-kittie-6.tiiny.site/)  
 📦 GitHub Repository: [CraftCatalyst Repo](https://github.com/Rutuja-131005/CraftCatalyst.git)  
+Demo working video: [CraftCatalyst Video](https://screenapp.io/app/#/shared/5M_3PKkw8t)
 
 ---
 
