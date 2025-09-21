@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraftCatalyst - Connecting India's Traditional Craftsmen to the Digital World</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img id="brand-logo" src="assets/logo .png" alt="">
+                <h1>CraftCatalyst</h1>
+                <span class="tagline">From Hands to Hearts, Globally</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#artisans" class="nav-link">Artisan Directory</a></li>
+                <li><a href="#marketplace" class="nav-link">Marketplace</a></li>
+                <li><a href="#stories" class="nav-link">Stories</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><button class="btn btn--primary btn--sm" id="language-toggle">हिंदी</button></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Connecting India's Traditional Craftsmen to the Digital World</h1>
+                <p class="hero-subtitle">Empowering artisans through AI-driven storytelling, cultural preservation, and market expansion</p>
+                <div class="hero-actions">
+                    <button class="btn btn--primary btn--lg" id="explore-artisans">Discover Artisans</button>
+                    <button class="btn btn--secondary btn--lg" id="join-platform">Join as Artisan</button>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">2,500+</div>
+                    <div class="stat-label">Active Artisans</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">15,000+</div>
+                    <div class="stat-label">Handcrafted Products</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">Traditional Crafts</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured AI Features -->
+        <section class="ai-features">
+            <div class="container">
+                <h2 class="section-title">AI-Powered Platform Features</h2>
+                <div class="features-grid" id="features-grid">
+                    <!-- Populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Categories -->
+        <section class="categories">
+            <div class="container">
+                <h2 class="section-title">Traditional Craft Categories</h2>
+                <div class="categories-grid" id="categories-grid">
+                    <!-- Populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Artisans -->
+        <section id="artisans" class="featured-artisans">
+            <div class="container">
+                <h2 class="section-title">Featured Master Artisans</h2>
+                <div class="artisans-grid" id="artisans-grid">
+                    <!-- Populated by JavaScript -->
+                </div>
+                <div class="text-center">
+                    <button class="btn btn--outline" id="view-all-artisans">View All Artisans</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Marketplace -->
+        <section id="marketplace" class="marketplace">
+            <div class="container">
+                <div class="marketplace-header">
+                    <h2 class="section-title">Product Marketplace</h2>
+                    <div class="marketplace-filters">
+                        <select class="form-control filter-select" id="category-filter">
+                            <option value="">All Categories</option>
+                        </select>
+                        <select class="form-control filter-select" id="price-filter">
+                            <option value="">All Prices</option>
+                            <option value="0-2000">Under ₹2,000</option>
+                            <option value="2000-5000">₹2,000 - ₹5,000</option>
+                            <option value="5000-10000">₹5,000 - ₹10,000</option>
+                            <option value="10000+">Above ₹10,000</option>
+                        </select>
+                        <input type="text" class="form-control search-input" placeholder="Search products..." id="product-search">
+                    </div>
+                </div>
+                <div class="products-grid" id="products-grid">
+                    <!-- Populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Cultural Stories -->
+        <section id="stories" class="stories">
+            <div class="container">
+                <h2 class="section-title">Cultural Heritage Stories</h2>
+                <div class="stories-grid" id="stories-grid">
+                    <!-- Populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>About Artisan Connect</h2>
+                        <p>Artisan Connect is an AI-driven platform developed in partnership with the Ministry of Textiles to empower India's traditional craftspeople. We bridge the gap between age-old craftsmanship and the digital economy.</p>
+                        <p>Our mission is to preserve cultural heritage while providing artisans with modern tools to reach global markets, tell their stories, and build sustainable livelihoods.</p>
+                        <div class="about-stats">
+                            <div class="about-stat">
+                                <strong>Ministry Partnership</strong>
+                                <p>Official collaboration with MoT & Office of Development Commissioner</p>
+                            </div>
+                            <div class="about-stat">
+                                <strong>AI-Powered</strong>
+                                <p>Multilingual content generation and market recommendations</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="heritage-showcase">
+                            <div class="heritage-item">🏺 Traditional Pottery</div>
+                            <div class="heritage-item">🧵 Handloom Textiles</div>
+                            <div class="heritage-item">🪵 Wood Carving</div>
+                            <div class="heritage-item">⚒️ Metal Crafts</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modals -->
+    <!-- Artisan Profile Modal -->
+    <div class="modal hidden" id="artisan-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="close-artisan-modal">&times;</button>
+            <div class="modal-body" id="artisan-modal-content">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Detail Modal -->
+    <div class="modal hidden" id="product-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="close-product-modal">&times;</button>
+            <div class="modal-body" id="product-modal-content">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Artisan Registration Modal -->
+    <div class="modal hidden" id="registration-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="close-registration-modal">&times;</button>
+            <div class="modal-body">
+                <h3>Join as Artisan</h3>
+                <form id="artisan-registration-form">
+                    <div class="form-group">
+                        <label class="form-label">Full Name</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Shop/Business Name</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Location</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Craft Specialization</label>
+                        <select class="form-control" required>
+                            <option value="">Select your craft</option>
+                            <option value="textiles">Textiles & Weaving</option>
+                            <option value="pottery">Pottery & Ceramics</option>
+                            <option value="woodwork">Wood Carving</option>
+                            <option value="metalwork">Metalwork</option>
+                            <option value="jewelry">Jewelry Making</option>
+                            <option value="paintings">Traditional Paintings</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Years of Experience</label>
+                        <input type="number" class="form-control" min="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Brief Bio</label>
+                        <textarea class="form-control" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Register as Artisan</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- AI Tools Demo Modal -->
+    <div class="modal hidden" id="ai-tools-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="close-ai-tools-modal">&times;</button>
+            <div class="modal-body">
+                <h3>AI Product Description Generator</h3>
+                <div class="ai-tool-demo">
+                    <div class="form-group">
+                        <label class="form-label">Product Name</label>
+                        <input type="text" class="form-control" id="ai-product-name" placeholder="e.g., Handwoven Kashmiri Shawl">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Craft Type</label>
+                        <select class="form-control" id="ai-craft-type">
+                            <option value="textiles">Textiles</option>
+                            <option value="pottery">Pottery</option>
+                            <option value="woodwork">Woodwork</option>
+                            <option value="metalwork">Metalwork</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Key Features</label>
+                        <textarea class="form-control" id="ai-features" rows="2" placeholder="e.g., Hand-spun wool, natural dyes, traditional patterns"></textarea>
+                    </div>
+                    <button class="btn btn--primary" id="generate-description">Generate AI Description</button>
+                    <div class="ai-output" id="ai-output" style="display: none;">
+                        <h4>Generated Description:</h4>
+                        <div class="generated-text" id="generated-text"></div>
+                        <button class="btn btn--secondary btn--sm" id="translate-description">Translate to Hindi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Artisan Connect</h4>
+                    <p>Empowering India's traditional craftspeople through technology and storytelling.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>For Artisans</h4>
+                    <ul>
+                        <li><a href="#">Join Platform</a></li>
+                        <li><a href="#">AI Tools</a></li>
+                        <li><a href="#">Training Resources</a></li>
+                        <li><a href="#">Success Stories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>For Buyers</h4>
+                    <ul>
+                        <li><a href="#">Browse Artisans</a></li>
+                        <li><a href="#">Product Catalog</a></li>
+                        <li><a href="#">Cultural Stories</a></li>
+                        <li><a href="#">Authenticity Guarantee</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Partnership</h4>
+                    <p><strong>Ministry of Textiles</strong><br>
+                    Office of Development Commissioner<br>
+                    (Handicrafts & Handlooms)</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Artisan Connect. A Government of India Initiative.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src='https://cdn.jotfor.ms/agent/embedjs/01996abeb3ed7db289b46f1cc2904dbd069b/embed.js'>
+</script>
+</body>
+</html>
